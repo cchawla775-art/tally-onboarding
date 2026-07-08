@@ -4,7 +4,7 @@ import Login from "../pages/Login.jsx";
 import Register from "../pages/Register.jsx";
 import Account from "../pages/Account.jsx";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   { path: "/", element: <Home /> },
   { path: "/login", element: <Login /> },
   { path: "/create-account", element: <Register /> },
